@@ -1,0 +1,9 @@
+Database:
+    pgAdmin:
+        URL: http://192.168.56.2:8181/browser/
+        email: admin@example.com
+        pass: adminpass
+    ConnectionString: postgresql://appuser:supersecretpassword@localhost:5432/appdb
+
+Application:
+    go run ./cmd/mmispoc
